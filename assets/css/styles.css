@@ -1,0 +1,99 @@
+.openBtn {
+  background: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.openBtnpage {
+  background: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.overlay-content {
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.overlay .closebtn:hover {
+  color: #99badd;
+}
+
+.overlay input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: #fff;
+}
+
+.overlay input[type=text]:hover {
+  background: #f1f1f1;
+}
+
+.overlay button {
+  float: left;
+  width: 10%;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  height: 55px;
+  cursor: pointer;
+}
+
+.overlay button:hover {
+  background: #bbb;
+}
+
+.fas.fa-search:hover {
+  color: #ff7e24;
+}
+
+.fas.fa-search {
+  color: #002654;
+}
+
+.site-section {
+  text-align: center;
+  padding: 50px 0 60px;
+}
+
+#store product {
+  max-width: 800px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.screen {
+  margin: auto;
+}
+
